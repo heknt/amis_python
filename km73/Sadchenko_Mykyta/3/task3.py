@@ -1,2 +1,2 @@
-name = input("Введіть своє ім'я: ")
+name = input("Enter name: ")
 print("Hello, " + name + "!")

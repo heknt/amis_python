@@ -1,4 +1,4 @@
-k1 = float(input("Введіть довжину 1-го катета: "))
-k2 = float(input("Enter cathete: "))
+k1 = float(input("Enter first catheter: "))
+k2 = float(input("Enter second catheter: "))
 s = (k1+k2)/2
 print("Area:", s)

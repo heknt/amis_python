@@ -3,12 +3,14 @@ second_number = int(input("Enter second number: "))
 third_number = int(input("Enter third number: "))
 if first_number == second_number:
     if second_number == third_number:
-        print(3)
+        result = 3
     else:
-        print(2)
+        result = 2
 elif second_number == third_number:
-    print(2)
+    result = 2
 elif first_number == third_number:
-    print(2)
+    result = 2
 else:
-    print(0)
+    result = 0
+
+print(result)

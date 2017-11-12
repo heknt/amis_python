@@ -1,5 +1,5 @@
-list=input("list: ").split()
-n=0
-for i in list:
-    n+=((list.count(i)*(list.count(i)-1))/2)/list.count(i)
-print("couples:",int(n))
+List = input("List: ").split()
+n = 0
+for i in List:
+    n += ((List.count(i) * (List.count(i)-1)) / 2) / List.count(i)
+print("couples:", int(n))
